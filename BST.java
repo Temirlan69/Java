@@ -66,7 +66,7 @@ public class BST <K extends Comparable<K>, V>{
         return root;
     }
 
-    // Find the inorder successor
+    
     private K minValue(Node root) {
         K minva = root.key;
         while (root.left != null) {
